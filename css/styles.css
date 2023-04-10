@@ -1,3 +1,15 @@
+body{
+    font-family: 'open sans', sans-serif;
+}
+
+.list{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
 /* -------------------------  SECTION HEADER  ------------------------ */
 .header {
 }
@@ -10,8 +22,17 @@
 .header-item {
 }
 .header-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #222222;
 }
 .header-btn {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #100F2E;
 }
 
 /* -------------------------  SECTION HERO  -------------------------- */
